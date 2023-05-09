@@ -1,0 +1,41 @@
+<html><body><h1>src\tri3.py</h1>Killed 22 out of 26 mutants<h2>Survived</h2>Survived mutation testing. These mutants show holes in your test suite.<h3>Mutant 1</h3><pre>--- src\tri3.py
++++ src\tri3.py
+@@ -1,6 +1,6 @@
+ def TipoTriangulo(a,b,c):
+ 
+-    if (a <= 0 or b <= 0 or c <= 0):
++    if (a < 0 or b <= 0 or c <= 0):
+         return "invalido"
+     
+ 		
+</pre><h3>Mutant 3</h3><pre>--- src\tri3.py
++++ src\tri3.py
+@@ -1,6 +1,6 @@
+ def TipoTriangulo(a,b,c):
+ 
+-    if (a <= 0 or b <= 0 or c <= 0):
++    if (a <= 0 or b < 0 or c <= 0):
+         return "invalido"
+     
+ 		
+</pre><h3>Mutant 5</h3><pre>--- src\tri3.py
++++ src\tri3.py
+@@ -1,6 +1,6 @@
+ def TipoTriangulo(a,b,c):
+ 
+-    if (a <= 0 or b <= 0 or c <= 0):
++    if (a <= 0 or b <= 0 or c < 0):
+         return "invalido"
+     
+ 		
+</pre><h3>Mutant 7</h3><pre>--- src\tri3.py
++++ src\tri3.py
+@@ -1,6 +1,6 @@
+ def TipoTriangulo(a,b,c):
+ 
+-    if (a <= 0 or b <= 0 or c <= 0):
++    if (a <= 0 and b <= 0 or c <= 0):
+         return "invalido"
+     
+ 		
+</pre></body></html>

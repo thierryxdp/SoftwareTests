@@ -1,6 +1,6 @@
 import pytest
 import sys
-sys.path.append("C:\\Users\\aalves\\Downloads\\TesteSoftware\\banco\\src")
+sys.path.append("C:\\Users\\aalves\\Downloads\\TesteSoftware\\banco python\\src")
 from main import banco
 
 
@@ -27,8 +27,12 @@ from main import banco
         (0, 10),
         (1, 10),
         (2, 10),
-        (30, 10)]], 1)
-    ])
+        (30, 10)]], 1),
+    ([1, [(0, 25), (0, 25), (0, 25)]], 2),
+    ([1, [(0, 20), (0,25), (0,25), (0,25)]], 2),
+    ([1, [(0, 21), (0,25), (0,25)]], 2),
+    ([2, [(0, 35), (5,35), (10,20)]], 1)
+])
 def test_invalid(input, expected_result):
     
     actual = banco(*input) 

@@ -1,0 +1,68 @@
+Entradas:
+C, N, lista de T, lista de D
+
+Característica: Limites do intervalo
+
+C1: C = 1
+C2: 2 <= C <= 9
+C3: C = 10
+
+N1: N = 1
+N2: 2 <= N <= 999
+N3: N = 1000
+
+T1: T = 0
+T2: 1 <= T <= 299
+T3: T = 300
+
+D1: D = 1
+D2: 2 <= D <= 9
+D3: D = 10
+
+Característica: Quantidade de caixas
+K1: C = 1
+K2: 2 <= C <= 3
+K3: 4 <= C <= 7
+K4: 8 <= C <= 9
+K5: C = 10
+
+Característica: Quantidade de clientes
+M1: N = 1
+M2: 2 <= N <= 300
+M3: 301 <= N <= 700
+M4: 701 <= N <= 999
+M5: N = 1000
+
+Característica: Existe algum com esse Tempo de Chegada
+N1: T = 0
+N2: 1 <= T <= 100
+N3: 101 <= T <= 200
+N4: 201 <= T <= 299
+N5: 300
+
+Característica: Existe algum com esse tempo de Serviço
+O1: D = 1
+O2: 2 <= D <= 3
+O3: 4 <= D <= 7
+O4: 8 <= D <= 9
+O5: D = 10
+
+
+Partições:
+Característica: Quantidade de caixas
+K1: C = 1
+K2: 2 <= C <= 3
+K3: 4 <= C <= 7
+K4: 8 <= C <= 9
+K5: C = 10
+
+Característica: Quantidade de clientes
+M1: N = 1
+M2: 2 <= N <= 300
+M3: 301 <= N <= 700
+M4: 701 <= N <= 999
+M5: N = 1000
+
+Característica: Algum cliente chega em zero ou nenhum cliente chega em zero
+
+Característica: Algum cliente espera 10 ou nenhum cliente espera 10
